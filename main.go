@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hoeru23/godesde0/ejercicios"
+	"github.com/Hoeru23/godesde0/files"
 )
 
 func main() {
@@ -34,5 +34,8 @@ func main() {
 
 	//iteraciones.Iterar()
 
-	ejercicios.TablaMultiplicar()
+	//fmt.Println(ejercicios.TablaMultiplicar())
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeoArchivo()
 }
