@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hoeru23/godesde0/files"
+	"github.com/Hoeru23/godesde0/funciones"
 )
 
 func main() {
@@ -37,5 +37,9 @@ func main() {
 	//fmt.Println(ejercicios.TablaMultiplicar())
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	funciones.Exponencia(2)
 }
