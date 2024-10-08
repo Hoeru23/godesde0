@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hoeru23/godesde0/funciones"
+	"github.com/Hoeru23/godesde0/users"
 )
 
 func main() {
@@ -41,5 +41,13 @@ func main() {
 
 	//funciones.Calculos()
 	//funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+
+	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
 }
