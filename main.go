@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hoeru23/godesde0/users"
+	"github.com/Hoeru23/godesde0/middleware"
 )
 
 func main() {
@@ -49,5 +49,28 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	/*
+		Pedro := new(m.Hombre)
+		e.HumanosRespirando(Pedro)
+
+		Maria := new(m.Mujer)
+		e.HumanosRespirando(Maria)
+	*/
+
+	//defer_panic.VemosDefer()
+	//defer_panic.EjemploPanic()
+
+	/*
+		canal1 := make(chan bool)
+		go goroutines.MiNombreLentooo("Joel Matos", canal1)
+		defer func() {
+			<-canal1
+		}()
+		fmt.Println("Estoy aqui")
+	*/
+
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 }
